@@ -1,0 +1,337 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body , html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+
+/* utility */
+
+.current {
+    background-color: #444;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 0px 10px;
+}
+
+.primary-text {
+    color: #36648B;
+}
+
+.secondary-text {
+    color:#ff4d00;
+}
+
+.l-heading {
+    font-size: 2.7rem;
+    line-height: 2.3rem;
+}
+/* header */
+header {
+    text-align: center;
+    background-color:#f1f1f1 ;
+    color: #333;
+}
+
+
+header .logo{
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+header p{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+/*footer */
+footer {
+    background-color: #f1f1f1;
+    margin-top: -10px;
+    line-height: 12px;
+    padding: 10px;
+}
+/* padding */
+.py-3 {
+    padding: 30px 0px;
+}
+.login-bg {
+    background: url(./img/126849-network-computer-switch-wire-data_center.jpg) no-repeat center center/cover;
+    height: 680px;
+}
+
+.container2 {
+    max-width: 360px;
+    margin:  auto ;
+    padding-top: 60px;
+}
+
+/*form */
+.form {
+    background-color: #fff;
+    padding: 15px 15px ;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+}
+
+.form .head-form {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.form .head-form h2 {
+    padding-bottom:  5px;
+}
+
+.form .head-form p {
+    margin-top: 0px;
+}
+.form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+.form input:focus {
+    border: 1px solid orange;
+}
+
+.form .btn {
+    margin-top: 30px;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    background-color: #ff4d00;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.form .btn:hover {
+    background-color: #e54500;
+}
+
+.form .condition {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.1rem;
+}
+
+
+
+.form .error  {
+    color: red;
+    padding-top: 7px;
+}
+
+/* navbar */
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 0px; /* moqat */
+    position: sticky;
+    top: 0px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+#navbar ul li {
+    float: left;
+    border-right: 1px solid grey;
+}
+#navbar ul li:last-child {
+    border: none;
+}
+#navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px 15px;
+    text-align: center;
+}
+#navbar ul li a:hover {
+    background-color: #ffb84c;
+    color: #333;
+}
+
+#navbar .logout {
+    background-color: orange;
+    float: right;
+}
+#navbar .logout a:hover {
+    background-color: #e54500;
+}
+/* upload */
+#upload {
+    background-color: #bdc1cc;
+    height: 380px;
+}
+
+#upload .form input[type="file"] {
+    margin-top: 3px;
+}
+/* view */
+#view {
+    background-color: #bdc1cc;
+    height: 300px;
+    overflow: auto;
+}
+
+#view table {
+    background-color: white;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.9);
+    margin-top: 20px;
+    width: 100%;   
+}
+
+#view table th, #view table td{
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+
+ #view table tr:nth-child(even){
+    background-color: #f2f2f2;
+ }
+ #view table tr:nth-child(odd){
+    background-color: #fff;
+ }
+ #view table tr:hover {
+    background-color: #def8f2;
+}
+
+.fa-trash-alt ,
+.fa-edit,
+.fa-eye
+{
+    color: black;
+    display: block;
+}
+.container2 .login-link p {
+    text-align: center;
+    color: #fff;
+    margin: -13px;
+}
+
+.login-bg2 {
+    height: 450px;
+}
+#about-info {
+    color: #000;
+    background-color: #bdc1cc;
+}
+.about-text {
+    float: left;
+    width: 50%;
+}
+
+.about-image {
+    float: right;
+    width: 50%;
+}
+.about-image img {
+    width: 44%;
+   border-radius: 50%;
+    max-height: 220px;
+    margin: auto;
+    display: block;
+}
+
+.edit-info {
+    background-color: #bdc1cc;
+    height: 500px;
+}
+
+.contact-page {
+    background-color: #bdc1cc;
+}
+
+.contact-form textarea {
+    width: 100%;
+    resize: none;
+    height: 200px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.contact-form textarea:focus {
+    border: 1px solid orange;
+}
+.contact-form input,
+.contact-form textarea
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contact-form .btn2 {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 8px;
+    font-size: 1.1rem;
+    border: none;
+}
+.contact-form .btn2:hover {
+    background-color: orange;
+    color: #333;
+}
+
+.contact-page2 {
+    background-color: #333;
+    color: #f1f1f1;
+    height: 280px;
+}
+
+.contact-page2 .box {
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+    padding: 50px;
+}
+.contact-page2 .box h3 {
+    padding-top: 2px;
+}
+.contact-page2 .box p {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.contact-page2 .box a {
+    color: #f1f1f1;
+}
